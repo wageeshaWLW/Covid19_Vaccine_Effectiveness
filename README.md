@@ -1,19 +1,36 @@
-Several Covid-19 Vaccines have been authorized by the European Medicines Agency (EMA). Using the official data of the clinical trials from the EMA [webpage](https://www.ema.europa.eu/), we can compute the efficacy for each vaccine in different clinical trial contexts.
+# 💉 Covid-19 Vaccine Effectiveness Study  
 
-The Covid-19 vaccines we are going to review are as follows:
-- Comirnaty
-- Nuvaxovid
-- Ronapreve
-- Xevudy
-- Spikevax
+## 📌 Introduction  
 
-We will perform a study on each of the trials of these vaccines.
+This project analyzes the **effectiveness** of several **Covid-19 vaccines** based on **clinical trial data** from the **European Medicines Agency (EMA)**. We evaluate the following vaccines:  
 
-Effectiveness
-In medicine, effectiveness refers to how well a treatment works in real-world settings, as demonstrated through pragmatic clinical trials. This is distinct from efficacy, which measures how well a treatment performs under ideal conditions, such as in controlled research studies or clinical trials.
+- **Comirnaty**  
+- **Nuvaxovid**  
+- **Ronapreve**  
+- **Xevudy**  
+- **Spikevax**  
 
-To quantify effectiveness, we use the following formula:
+Our study compares **clinical trial results** to assess vaccine effectiveness in **real-world conditions**, distinguishing it from **efficacy**, which is measured under controlled trial settings.  
 
-$\text{Effectiveness} = \frac{\text{Theta Placebo} - \text{Theta Vaccine}}{\text{Theta Placebo}} \times 100$
+---
 
-This formula calculates the percentage difference in outcomes between the treated and control groups, providing a measure of how effectively the treatment performs in practical, everyday conditions.
+## 🏥 Understanding Effectiveness  
+
+In medicine:  
+- **Effectiveness** measures how well a vaccine works in real-world settings (pragmatic trials).  
+- **Efficacy** measures its performance under **ideal, controlled conditions** (clinical trials).  
+
+We compute effectiveness using the following formula:  
+
+\[
+\text{Effectiveness} = \frac{\Theta_{\text{Placebo}} - \Theta_{\text{Vaccine}}}{\Theta_{\text{Placebo}}} \times 100
+\]
+
+where:  
+- **\(\Theta_{\text{Placebo}}\)** = Outcome rate in the placebo group  
+- **\(\Theta_{\text{Vaccine}}\)** = Outcome rate in the vaccinated group  
+
+This percentage represents the vaccine's performance in real-world conditions compared to a placebo group.  
+
+
+
