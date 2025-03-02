@@ -17,20 +17,17 @@ Our study compares **clinical trial results** to assess vaccine effectiveness in
 ## 🏥 Understanding Effectiveness  
 
 In medicine:  
-- **Effectiveness** measures how well a vaccine works in real-world settings (pragmatic trials).  
-- **Efficacy** measures its performance under **ideal, controlled conditions** (clinical trials).  
+- **Effectiveness** measures how well a vaccine works in real-world settings (**pragmatic trials**).  
+- **Efficacy** measures its performance under **ideal, controlled conditions** (**clinical trials**).  
 
 We compute effectiveness using the following formula:  
 
 \[
-\text{Effectiveness} = \frac{\Theta_{\text{Placebo}} - \Theta_{\text{Vaccine}}}{\Theta_{\text{Placebo}}} \times 100
+\text{Effectiveness} = \left( \frac{\Theta_{\text{Placebo}} - \Theta_{\text{Vaccine}}}{\Theta_{\text{Placebo}}} \right) \times 100
 \]
 
 where:  
-- *\(\Theta_{\text{Placebo}}\)* = Outcome rate in the placebo group  
-- *\(\Theta_{\text{Vaccine}}\)* = Outcome rate in the vaccinated group  
+- \( \Theta_{\text{Placebo}} \) = Outcome rate in the **placebo** group  
+- \( \Theta_{\text{Vaccine}} \) = Outcome rate in the **vaccinated** group  
 
-This percentage represents the vaccine's performance in real-world conditions compared to a placebo group.  
-
-
-
+This percentage represents the vaccine's performance in **real-world conditions** compared to a placebo group.  
