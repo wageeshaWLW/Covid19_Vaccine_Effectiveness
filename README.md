@@ -27,8 +27,8 @@ We compute effectiveness using the following formula:
 \]
 
 where:  
-- **\(\Theta_{\text{Placebo}}\)** = Outcome rate in the placebo group  
-- **\(\Theta_{\text{Vaccine}}\)** = Outcome rate in the vaccinated group  
+- *\(\Theta_{\text{Placebo}}\)* = Outcome rate in the placebo group  
+- *\(\Theta_{\text{Vaccine}}\)* = Outcome rate in the vaccinated group  
 
 This percentage represents the vaccine's performance in real-world conditions compared to a placebo group.  
 
